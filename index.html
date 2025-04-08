@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Four Year Plan</title>
+</head>
+<body>
+
+    <div id="heading" class="flex justify-center py-8">
+        <h1 class="text-4xl font-extrabold">Four Year Planner</h1>
+    </div>
+
+    <div class="flex ">
+        <div id="table" class="w-13/20">
+
+            <div id="1" class="pb-8">
+    
+                <div class="flex justify-center">
+                    <h2 class="text-2xl font-bold pb-4">FRESHMAN YEAR</h2>
+                </div>
+        
+                <div class="flex justify-around">
+                    <div id="f1" class="px-20">
+                        <h2 class="font-bold text-lg">Fall Quarter</h2>
+                    </div>
+                    <div id="w1" class="px-20">
+                        <h2 class="font-bold text-lg">Winter Quarter</h2>
+                    </div>
+                    <div id="s1" class="px-20">
+                        <h2 class="font-bold text-lg">Spring Quarter</h2>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="2" class="pb-8">
+    
+                <div class="flex justify-center">
+                    <h2 class="text-2xl font-bold pb-4">SOPHOMORE YEAR</h2>
+                </div>
+        
+                <div class="flex justify-around">
+                    <div id="f2" class="px-20">
+                        <h2 class="font-bold text-lg">Fall Quarter</h2>
+                    </div>
+                    <div id="w2" class="px-20">
+                        <h2 class="font-bold text-lg">Winter Quarter</h2>
+                    </div>
+                    <div id="s2" class="px-20">
+                        <h2 class="font-bold text-lg">Spring Quarter</h2>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="3" class="pb-8">
+    
+                <div class="flex justify-center">
+                    <h2 class="text-2xl font-bold pb-4">JUNIOR YEAR</h2>
+                </div>
+        
+                <div class="flex justify-around">
+                    <div id="f3" class="px-20">
+                        <h2 class="font-bold text-lg">Fall Quarter</h2>
+                    </div>
+                    <div id="w3" class="px-20">
+                        <h2 class="font-bold text-lg">Winter Quarter</h2>
+                    </div>
+                    <div id="s3" class="px-20">
+                        <h2 class="font-bold text-lg">Spring Quarter</h2>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div id="4" class="pb-8">
+    
+                <div class="flex justify-center">
+                    <h2 class="text-2xl font-bold pb-4">SENIOR YEAR</h2>
+                </div>
+        
+                <div class="flex justify-around">
+                    <div id="f4" class="px-20">
+                        <h2 class="font-bold text-lg">Fall Quarter</h2>
+                    </div>
+                    <div id="w4" class="px-20">
+                        <h2 class="font-bold text-lg">Winter Quarter</h2>
+                    </div>
+                    <div id="s4" class="px-20">
+                        <h2 class="font-bold text-lg">Spring Quarter</h2>
+                    </div>
+                </div>
+                
+            </div>
+    
+        </div>
+    
+        <div id="classes" class="w-7/20 mx-10">
+            <table class="border">
+                <tr>
+                  <th>Class</th>
+                  <th>Quarter</th>
+                </tr>
+                <tr class="bg-teal-500">
+                  <td>CSCI 10 & L</td>
+                  <td>
+                    <select name="CSCI 10 & L" id="quarters" class="q">
+                        <option disabled selected value>Select an option</option>
+                        <option value="f1">Freshman Fall</option>
+                        <option value="w1">Freshman Winter</option>
+                        <option value="s1">Freshman Spring</option>
+                        <option value="f2">Sophomore Fall</option>
+                        <option value="w2">Sophomore Winter</option>
+                        <option value="s2">Sophomore Spring</option>
+                        <option value="f3">Junior Fall</option>
+                        <option value="w3">Junior Winter</option>
+                        <option value="s3">Junior Spring</option>
+                        <option value="f4">Senior Fall</option>
+                        <option value="w4">Senior Winter</option>
+                        <option value="s4">Senior Spring</option>
+                      </select>
+                  </td>
+                </tr>
+                <tr class="bg-teal-500">
+                  <td>CSCI 60 & L</td>
+                  <td>
+                    <select name="CSCI 60 & L" id="quarters" class="q">
+                        <option disabled selected value>Select an option</option>
+                        <option value="f1">Freshman Fall</option>
+                        <option value="w1">Freshman Winter</option>
+                        <option value="s1">Freshman Spring</option>
+                        <option value="f2">Sophomore Fall</option>
+                        <option value="w2">Sophomore Winter</option>
+                        <option value="s2">Sophomore Spring</option>
+                        <option value="f3">Junior Fall</option>
+                        <option value="w3">Junior Winter</option>
+                        <option value="s3">Junior Spring</option>
+                        <option value="f4">Senior Fall</option>
+                        <option value="w4">Senior Winter</option>
+                        <option value="s4">Senior Spring</option>
+                      </select>
+                  </td>
+                </tr>
+                <tr class="bg-teal-500">
+                  <td>CSCI 61</td>
+                  <td>
+                    <select name="CSCI 61" id="quarters" class="q">
+                        <option disabled selected value>Select an option</option>
+                        <option value="f1">Freshman Fall</option>
+                        <option value="w1">Freshman Winter</option>
+                        <option value="s1">Freshman Spring</option>
+                        <option value="f2">Sophomore Fall</option>
+                        <option value="w2">Sophomore Winter</option>
+                        <option value="s2">Sophomore Spring</option>
+                        <option value="f3">Junior Fall</option>
+                        <option value="w3">Junior Winter</option>
+                        <option value="s3">Junior Spring</option>
+                        <option value="f4">Senior Fall</option>
+                        <option value="w4">Senior Winter</option>
+                        <option value="s4">Senior Spring</option>
+                      </select>
+                  </td>
+                </tr>
+                <tr class="bg-teal-500">
+                  <td>CSCI 62</td>
+                  <td>
+                    <select name="CSCI 62" id="quarters" class="q">
+                        <option disabled selected value>Select an option</option>
+                        <option value="f1">Freshman Fall</option>
+                        <option value="w1">Freshman Winter</option>
+                        <option value="s1">Freshman Spring</option>
+                        <option value="f2">Sophomore Fall</option>
+                        <option value="w2">Sophomore Winter</option>
+                        <option value="s2">Sophomore Spring</option>
+                        <option value="f3">Junior Fall</option>
+                        <option value="w3">Junior Winter</option>
+                        <option value="s3">Junior Spring</option>
+                        <option value="f4">Senior Fall</option>
+                        <option value="w4">Senior Winter</option>
+                        <option value="s4">Senior Spring</option>
+                      </select>
+                  </td>
+                </tr>
+                <tr class="bg-teal-500">
+                  <td>CSEN 20 & L</td>
+                  <td>
+                    <select name="CSEN 20 & L" id="quarters" class="q">
+                        <option disabled selected value>Select an option</option>
+                        <option value="f1">Freshman Fall</option>
+                        <option value="w1">Freshman Winter</option>
+                        <option value="s1">Freshman Spring</option>
+                        <option value="f2">Sophomore Fall</option>
+                        <option value="w2">Sophomore Winter</option>
+                        <option value="s2">Sophomore Spring</option>
+                        <option value="f3">Junior Fall</option>
+                        <option value="w3">Junior Winter</option>
+                        <option value="s3">Junior Spring</option>
+                        <option value="f4">Senior Fall</option>
+                        <option value="w4">Senior Winter</option>
+                        <option value="s4">Senior Spring</option>
+                      </select>
+                  </td>
+                </tr>
+                <tr class="bg-teal-500">
+                  <td>ECEN 21 & L</td>
+                  <td>
+                    <select name="ECEN 21 & L" id="quarters" class="q">
+                        <option disabled selected value>Select an option</option>
+                        <option value="f1">Freshman Fall</option>
+                        <option value="w1">Freshman Winter</option>
+                        <option value="s1">Freshman Spring</option>
+                        <option value="f2">Sophomore Fall</option>
+                        <option value="w2">Sophomore Winter</option>
+                        <option value="s2">Sophomore Spring</option>
+                        <option value="f3">Junior Fall</option>
+                        <option value="w3">Junior Winter</option>
+                        <option value="s3">Junior Spring</option>
+                        <option value="f4">Senior Fall</option>
+                        <option value="w4">Senior Winter</option>
+                        <option value="s4">Senior Spring</option>
+                      </select>
+                  </td>
+                </tr>
+                <tr class="bg-teal-500">
+                    <td>CSCI 161</td>
+                    <td>
+                        <select name="CSCI 161" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-teal-500">
+                    <td>CSCI 163</td>
+                    <td>
+                        <select name="CSCI 163" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-teal-500">
+                    <td>CSEN 177 & L</td>
+                    <td>
+                        <select name="CSEN 177 & L" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-teal-500">
+                    <td>Emphasis I</td>
+                    <td>
+                        <select name="Emphasis I" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-teal-500">
+                    <td>Emphasis II</td>
+                    <td>
+                        <select name="Emphasis II" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-teal-500">
+                    <td>Emphasis III</td>
+                    <td>
+                        <select name="Emphasis III" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-teal-500">
+                    <td>Emphasis IV</td>
+                    <td>
+                        <select name="Emphasis IV" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-teal-500">
+                    <td>Emphasis V</td>
+                    <td>
+                        <select name="Emphasis V" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-blue-500">
+                    <td>MATH 11</td>
+                    <td>
+                        <select name="MATH 11" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-blue-500">
+                    <td>MATH 12</td>
+                    <td>
+                        <select name="MATH 12" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-blue-500">
+                    <td>MATH 13</td>
+                    <td>
+                        <select name="MATH 13" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-blue-500">
+                    <td>MATH 14</td>
+                    <td>
+                        <select name="MATH 14" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-blue-500">
+                    <td>MATH 51</td>
+                    <td>
+                        <select name="MATH 51" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-blue-500">
+                    <td>MATH 53</td>
+                    <td>
+                        <select name="MATH 53" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-blue-500">
+                    <td>MATH 122</td>
+                    <td>
+                        <select name="MATH 122" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>CTW I</td>
+                    <td>
+                        <select name="CTW I" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>CTW II</td>
+                    <td>
+                        <select name="CTW II" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>C & I I</td>
+                    <td>
+                        <select name="C & I I" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>C & I II</td>
+                    <td>
+                        <select name="C & I II" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>C & I III</td>
+                    <td>
+                        <select name="C & I III" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Language I</td>
+                    <td>
+                        <select name="Language I" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Language II</td>
+                    <td>
+                        <select name="Language II" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Natural Science</td>
+                    <td>
+                        <select name="Natural Science" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Social Science</td>
+                    <td>
+                        <select name="Social Science" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Science, Technology, Society</td>
+                    <td>
+                        <select name="Science, Technology, Society" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Civic Engagement</td>
+                    <td>
+                        <select name="Civic Engagement" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Ethics</td>
+                    <td>
+                        <select name="Ethics" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Diversity</td>
+                    <td>
+                        <select name="Diversity" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Arts</td>
+                    <td>
+                        <select name="Arts" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>Advanced Writing</td>
+                    <td>
+                        <select name="Advanced Writing" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+                  <tr class="bg-sky-500">
+                    <td>ELSJ</td>
+                    <td>
+                        <select name="ELSJ" id="quarters" class="q">
+                            <option disabled selected value>Select an option</option>
+                            <option value="f1">Freshman Fall</option>
+                            <option value="w1">Freshman Winter</option>
+                            <option value="s1">Freshman Spring</option>
+                            <option value="f2">Sophomore Fall</option>
+                            <option value="w2">Sophomore Winter</option>
+                            <option value="s2">Sophomore Spring</option>
+                            <option value="f3">Junior Fall</option>
+                            <option value="w3">Junior Winter</option>
+                            <option value="s3">Junior Spring</option>
+                            <option value="f4">Senior Fall</option>
+                            <option value="w4">Senior Winter</option>
+                            <option value="s4">Senior Spring</option>
+                          </select>
+                      </td>
+                  </tr>
+
+              </table>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
