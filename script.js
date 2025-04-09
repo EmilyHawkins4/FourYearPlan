@@ -1,4 +1,4 @@
-let courses = ["CSCI 10 & L", "CSCI 60 & L", "CSCI 61", "CSEN 20 & L", "ECEN 21 & L", "CSCI 161", "CSCI 163", "CSEN 177 & L", "Emphasis I", "Emphasis II", "Emphasis III", "Emphasis IV", "Emphasis V", "MATH 11", "MATH 12", "MATH 13", "MATH 14", "MATH 51", "MATH 53", "MATH 122", "CTW I", "CTW II", "C & I I", "C & I II", "C & I III", "Language I", "Language II", "Natural Science", "Social Science", "Science, Tech, Society", "Civic Engagement", "Ethics", "Diversity", "Arts", "Advanced Writing", "ELSJ", "Elective"]
+let courses = ["CSCI 10 & L", "CSCI 60 & L", "CSCI 61", "CSCI 62", "CSEN 20 & L", "ECEN 21 & L", "CSCI 161", "CSCI 163", "CSEN 177 & L", "Emphasis I", "Emphasis II", "Emphasis III", "Emphasis IV", "Emphasis V", "MATH 11", "MATH 12", "MATH 13", "MATH 14", "MATH 51", "MATH 53", "MATH 122", "CTW I", "CTW II", "C & I I", "C & I II", "C & I III","RTC I", "RTC II", "RTC III", "Language I", "Language II", "Natural Science", "Social Science", "Science, Tech, Society", "Civic Engagement", "Ethics", "Diversity", "Arts", "Advanced Writing", "ELSJ", "Elective"]
 
 console.log("connected!")
 
